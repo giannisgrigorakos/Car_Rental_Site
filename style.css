@@ -1,0 +1,91 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+  	background-color: 	#e4e5e7;
+}
+
+h1{
+	text-align: center;
+	font-family: "Times New Roman";
+	font: 24pt;
+	color:#222;
+}
+hr{
+	height: 2px;
+	color: #ffffff;
+}   
+#logo{
+	width:100px;
+	height: 0px;
+	float:left;
+}
+#nav {
+    background-color: #222;
+}
+#nav_wrapper {
+    width: 960px;
+    margin: 0 auto;
+    text-align: left;
+}
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    min-width: 200px;
+}
+#nav ul li {
+    display: inline-block;
+}
+#nav ul li:hover {
+    background-color: #333;
+}
+#nav ul li a, visited {
+    color: #CCC;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+#nav ul li:hover ul {
+    display: block;
+}
+#nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    border: 5px solid #222;
+    border-top: 0;
+    margin-left: -5px;
+}
+#nav ul ul li {
+    display: block;
+}
+#nav ul ul li a:hover {
+    color: #699;
+}
+#credits{
+    font-family: Arial;
+    font-size: 17px;
+    background-color: #e4e5e7;
+    padding: 15px;
+    margin: 15px;
+    margin-top:50px;
+    margin-left: 400px;
+    margin-right: 400px;
+    border: 2px solid green;
+    border-radius: 5px;
+}   
+
+#credits {
+  padding: 20px 40px;
+  color: #000;
+  background-color: #e4e5e7;
+  /* transition: box-shadow 0.2s, transform 0.2s; */
+}
+#credits:hover {
+  color: #000;
+  box-shadow: -10px -10px 0 #222;
+  transform: translate(10px, 10px);
+}
