@@ -1,0 +1,33 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+  	background-color: 	#e4e5e7;
+}
+#home ul {
+    list-style-type: none;
+    position: relative;
+    left: -30px;
+    top: 0
+    min-width: 0px;
+}
+#home ul li {
+    display: inline-block;
+}
+#home ul li:hover {
+    background-color: #333;
+
+table tr td {
+    border: 1px solid #ccc;
+}
+
+div.scrollable {
+	width: 100%;
+	overflow: auto;
+}
+
+table td {
+	height:70px;
+}
+	
