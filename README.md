@@ -1,6 +1,6 @@
-# Car Rental Site
-The technologies used were:
+# Car Rental Site <br>
+The technologies used were: <br>
 Backend->php <br>
-Frontend->HTML5 and CSS3
-Database->MySQL
+Frontend->HTML5 and CSS3 <br>
+Database->MySQL <br>
 Web Server-> XAMPP Apache
